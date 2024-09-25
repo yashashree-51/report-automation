@@ -1,0 +1,42 @@
+@page {
+    size: A4; /* Set the page size to A4 */
+    margin: 20mm; /* Set margins around the content */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* Remove padding to prevent overflow */
+    background-color: #ffffff; 
+    width: 100%;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Use 2 columns to fit better on A4 */
+    gap: 15px;
+    width: 100%; /* Ensure it fits the width of the page */
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Ensure the layout is responsive even for smaller print formats */
+@media print and (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller width */
+    }
+}
+
+@media print and (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: 1fr; /* 1 column for very narrow widths */
+    }
+}

@@ -1,0 +1,43 @@
+@page {
+    size: A4; 
+    margin: 1cm; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto;
+    padding-top: 50px; 
+    padding-left: 10mm; 
+    padding-right: 10mm; 
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    font-size: 18px;
+    padding-left: 0;
+}
+
+.list li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.list li strong {
+    font-weight: bold;
+}

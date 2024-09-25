@@ -1,0 +1,42 @@
+@page {
+    size: A4; 
+    margin: 20mm;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #ffffff; 
+    width: 100%;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    width: 100%; 
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05); 
+}
+
+
+@media print and (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media print and (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: 1fr; 
+    }
+}

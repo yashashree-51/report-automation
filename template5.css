@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* White background */
+}
+
+.section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 200px; /* Adds gap between sections */
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: left;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+}

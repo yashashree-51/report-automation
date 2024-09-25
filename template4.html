@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Acquisition Report</title>
+    <link rel="stylesheet" href="template4.css"> 
+</head>
+<body>
+    <!-- Equipment & Payload -->
+    <h2>Equipment & Payload</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Image Resolution</th>
+                <th>Flight Speed</th>
+                <th>Focal Length of Lens</th>
+                <th>Angle of View</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{Image Resolution}}</td>
+                <td>{{Flight Speed}}</td>
+                <td>{{Focal Length of Lens}}</td>
+                <td>{{Angle of View}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Ambient Conditions -->
+    <h3>Ambient conditions</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Wind Speed</th>
+                <th>Ambient Air Temperature</th>
+                <th>Cloud Coverage</th>
+                <th>Visibility</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{Wind Speed}}</td>
+                <td>{{Ambient Air Temperature}}</td>
+                <td>{{Cloud Coverage}}</td>
+                <td>{{Visibility}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Data Acquisition Summary -->
+    <h2>Data Acquisition Summary</h2>
+    <h3>Site Info</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>Plant Area (in acres)</th>
+                <th>Plant Size (in MW approx)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{Location}}</td>
+                <td>{{Plant Area (in acres)}}</td>
+                <td>{{Plant Size (in MW approx)}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Equipment Type -->
+    <h3>Equipment type</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>UAV / Drone Type</th>
+                <th>Controller Used</th>
+                <th>Payload</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{UAV / Drone Type}}</td>
+                <td>{{Controller Used}}</td>
+                <td>{{Payload}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Acquisition Details -->
+    <h2>Acquisition details</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Dates of Data Acquisition</th>
+                <th>Cruise Speed</th>
+                <th>Front Overlap</th>
+                <th>Side Overlap</th>
+                <th>Course Angle</th>
+                <th>Flight Altitude</th>
+                <th>Payload Inclination Angle</th>
+                <th>Image Resolution</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{Dates of Data Acquisition}}</td>
+                <td>{{Cruise Speed}}</td>
+                <td>{{Front Overlap}}</td>
+                <td>{{Side Overlap}}</td>
+                <td>{{Course Angle}}</td>
+                <td>{{Flight Altitude}}</td>
+                <td>{{Payload Inclination Angle}}</td>
+                <td>{{Image Resolution}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Data Quality Checks Table -->
+    <h3>Data quality checks</h3>
+    <table class="quality-table">
+        <tbody>
+            <tr>
+                <td><strong>Acquisition Date</strong></td>
+                <td>{{Acquisition Date}}</td>
+            </tr>
+            <tr>
+                <td><strong>Area Covered</strong></td>
+                <td>{{Area Covered}}</td>
+            </tr>
+            <tr>
+                <td><strong>Wind Speed</strong></td>
+                <td>{{Wind Speed}}</td>
+            </tr>
+            <tr>
+                <td><strong>Acquisition Time</strong></td>
+                <td>{{Acquisition Time}}</td>
+            </tr>
+            <tr>
+                <td><strong>Weather</strong></td>
+                <td>{{Weather}}</td>
+            </tr>
+            <tr>
+                <td><strong>Ambient Temperature</strong></td>
+                <td>{{Ambient Temperature}}</td>
+            </tr>
+            <tr>
+                <td><strong>Plant Size Covered (approx.)</strong></td>
+                <td>{{Plant Size Covered (approx.)}}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
