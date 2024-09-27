@@ -1,14 +1,18 @@
+@page {
+    size: A4; 
+    margin: 1cm; 
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF; /* White background */
+    background-color: #FFFFFF; 
 }
 
 .section {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 200px; /* Adds gap between sections */
+    margin-bottom: 200px; 
 }
 
 h2 {

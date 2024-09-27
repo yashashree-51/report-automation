@@ -5,9 +5,9 @@
 
 .table, .quality-table {
     width: 100%; 
-    max-width: 90%; /* Change from 100% to 90% */
-    margin-left: auto; /* Center table */
-    margin-right: auto; /* Center table */
+    max-width: 90%; 
+    margin-left: auto; 
+    margin-right: auto; 
     border-collapse: collapse;
 }
 
@@ -37,10 +37,10 @@ h2, h3 {
 
 .table th, .table td {
     border: 1px solid #b0c4de;
-    padding: 8px; /* Reduced padding */
+    padding: 8px; 
     text-align: left;
     border-right: 1px solid #83a8d8; 
-    word-wrap: break-word; /* Allows long words to break */
+    word-wrap: break-word; 
 }
 
 .table th {
@@ -87,5 +87,5 @@ h2, h3 {
 }
 
 .quality-table tr:nth-child(1) td:nth-child(1) {
-    background-color: #04580480; /* Green color */
+    background-color: #04580480;
 }
